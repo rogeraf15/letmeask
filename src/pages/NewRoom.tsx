@@ -47,6 +47,7 @@ export function NewRoom(){
               type="text"
               placeholder="Digite o código da sala"
               onChange={event => setNewRoom(event.target.value)}
+              value={newRoom}
             />
             <Button type="submit">
               Criar sala
