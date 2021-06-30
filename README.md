@@ -1,46 +1,80 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <img alt="Rocketshoes" src=".../../src/assets/images/logo.svg" />
+    <br>
+    letmeask
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="https://www.linkedin.com/in/roger-fernandes-1488841b9/">
+    <img alt="linkedin" src="https://img.shields.io/badge/-Roger%20Fernandes-8257E6?style=flat&logo=Linkedin&logoColor=white">
+  </a>
 
-## Available Scripts
+  <a href="./LICENSE"> 
+    <img  alt="License" src="https://img.shields.io/badge/license-MIT-8257E6">
+  </a>
+</p>
 
-In the project directory, you can run:
+<h4 align="center">
+  This is the project developed at NLW Together by <a href="https://github.com/Rocketseat/">Rocketseat</a>.
+</h4>
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <a href="#ledger-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#running-starting">Starting</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![App Screenshot](./screenshot.svg)
 
-### `yarn test`
+## :ledger: About
+Letmeask is an application to create Q&A rooms. With the following features:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Login with Google;
+- Create a room;
+- Ask a question;
+- Mark question as answered;
 
-### `yarn build`
+## :running: Starting
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Before starting :checkered_flag:, you need to have installed:
+- [Git](https://git-scm.com) 
+- [Node](https://nodejs.org/en/)
+- [Yarn](https://classic.yarnpkg.com/en/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+# Clone this project
+$ git clone https://github.com/rogeraf15/letmeask.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Access
+$ cd letmeask
 
-### `yarn eject`
+# Install dependencies
+$ yarn
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Copy the example and fill in the .env.local with your firebase credentials
+$ cp .env.example .env.local
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Run the project
+$ yarn start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# The server will initialize in the <http://localhost:3000>
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## :computer: Technologies
 
-## Learn More
+- [ReactJS](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Firebase](https://firebase.google.com/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+## :memo: License
+
+This project is under the MIT license. See the [LICENSE](./LICENSE) for more information.
+
+---
+
+Made with ♥ by Roger Fernandes :wave: [Get in touch!](https://www.linkedin.com/in/roger-fernandes-1488841b9/)
+
